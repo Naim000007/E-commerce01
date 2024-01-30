@@ -1,10 +1,12 @@
 
+import './Loader.css';
+
 function Loader() {
   return (
-    <div>
-      Loadding
+    <div className="center">
+      <div className="lds-dual-ring">Loaddig</div>
     </div>
-  )
+  );
 }
 
-export default Loader
+export default Loader;
